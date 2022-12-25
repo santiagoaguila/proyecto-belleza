@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
@@ -34,8 +35,10 @@
             <h2 class="inicio-titulo">Contenido de Servicios</h2>
         </section>
         <section class="contenedor1">
-            <div class="imgcaja1"><img src="./img/servicio_manicure.jpg" alt="Salon de belleza"></div>
-            <div class="caja">
+            <div class="div-manicure">
+                <img data-aos="fade-right" class="img-over" src="./img/servicio_manicure.jpg" alt="Salon de belleza">
+            </div>
+            <div class="caja slide-fwd-tr">
                 <!-- <h3>Desde el 2000 - Estamos al servicio</h3> -->
                 <h3>Servicio de Manicure</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, temporibus, voluptatum consequuntur
@@ -45,20 +48,21 @@
             </div>
         </section>
 
-
         <section class="contenedor2">
             <div class="caja">
-                <h3>Servicio de Maquillaje</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, temporibus, voluptatum consequuntur eum
-                    minus eaque architecto ipsum minima non perspiciatis adipisci provident obcaecati dicta nesciunt
-                    suscipit veritatis modi necessitatibus? Dicta.</p>
+                <div class="caja-animacion">
+                    <h3>Servicio de Maquillaje</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, temporibus, voluptatum consequuntur
+                        eum
+                        minus eaque architecto ipsum minima non perspiciatis adipisci provident obcaecati dicta nesciunt
+                        suscipit veritatis modi necessitatibus? Dicta.</p>
+                </div>
             </div>
-            <div class="imgcaja2"><img src="./img/make-up.jpg" alt="Salon de belleza"></div>
-
+            <div class="imgcaja2"><img data-aos="fade-up-left" class="img-over" src="./img/make-up.jpg" alt="Salon de belleza"></div>
         </section>
 
         <section class="contenedor1">
-            <div class="imgcaja3"><img src="img/corte_cabello.jpg" alt="Salon de belleza"></div>
+            <div class="imgcaja3"><img data-aos="zoom-in" class="img-over" src="img/corte_cabello.jpg" alt="Salon de belleza"></div>
             <div class="caja">
                 <h3>Servicio de Corte de Cabello</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, temporibus, voluptatum consequuntur eum
@@ -72,12 +76,15 @@
 
     </main>
 
-    <footer id="footer-index">
-        <div class="cajaFooter">
+    <footer id="footer-index" class="gradient">
+        <div class="cajaFooter gradient">
             Todos los derechos reservados - Santi Aguilar
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
