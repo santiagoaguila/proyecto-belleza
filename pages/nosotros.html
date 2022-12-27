@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
@@ -33,7 +34,7 @@
         </section>
 
         <section class="nosotros-cajaVideo">
-            <video class="nostros-video" controls src="../video/nosotros.mp4"></video>
+            <video data-aos="flip-left" class="nostros-video" controls src="../video/nosotros.mp4"></video>
         </section>
 
         <section class="nosotros-parrafos">
@@ -65,20 +66,24 @@
 
         <section class="nostros-cajaImg">
             <article class="nosotros-imgs">
-                <img class="nosotros-img" src="../img/unas.jpg" alt="Salon de belleza">
-                <img class="nosotros-img" src="../img/cortes.jpg" alt="Salon de belleza">
-                <img class="nosotros-img" src="../img/tintes.jpg" alt="Salon de belleza">
+                <img data-aos="fade-right" class="nosotros-img" src="../img/unas.jpg" alt="Salon de belleza">
+                <img data-aos="fade-left" class="nosotros-img" src="../img/cortes.jpg" alt="Salon de belleza">
+                <img data-aos="fade-up-right" class="nosotros-img" src="../img/tintes.jpg" alt="Salon de belleza">
             </article>
         </section>
 
     </main>
 
     <footer id="footer-index">
-
         <div class="cajaFooter">
             Todos los derechos reservados - Santi Aguilar
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
