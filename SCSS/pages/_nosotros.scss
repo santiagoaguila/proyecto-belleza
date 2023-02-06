@@ -1,0 +1,56 @@
+/*======= INICIO - ESTILOS PAGINA DE NOSOTROS =========*/
+.nosotros-cajaVideo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nostros-video {
+    width: 70%;
+    border-radius: 15px;
+    border: solid 1px rgb(218, 199, 36);
+}
+
+.nosotros-parrafos {
+    display: flex;
+    /*  flex-direction: column;*/
+    /*width: 60vd;*/
+    align-items: center;
+    margin: 25px;
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+
+}
+
+.nosotros-articulos {
+    /*width: 73%;*/
+    height: 50%;
+    margin: 12px;
+    padding: 10px;
+}
+
+.nostros-cajaImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nosotros-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0px;
+    /*width: 70%;*/
+    align-items: center;
+}
+
+.nosotros-img {
+    width: 98%;
+    height: 85%;
+    border-radius: 15px;
+    border: solid 1px rgb(218, 199, 36);
+}
+
+/*======= FIN - ESTILOS PAGINA DE NOSOTROS =========*/

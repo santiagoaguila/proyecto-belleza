@@ -1,13 +1,22 @@
-nav{
-    background-color: blue;
-    ul{
-        color: aqua;
-    }
-}
+@import "./utils/variables";
+@import "./utils/mixins";
 
-h1{
-color: azure;
-}
+@import "./base/base";
+
+@import "./components/navbar";
+
+@import "./pages/index";
+@import "./pages/cursos";
+@import "./pages//servicios";
+@import "./pages/nosotros";
+@import "./pages/contacto";
+
+@import "./components/animaciones";
+@import "./components/footer";
+
+
+
+
 
 
 

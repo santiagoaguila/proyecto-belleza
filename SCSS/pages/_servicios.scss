@@ -1,0 +1,61 @@
+/*=======INICIO - ESTILOS PAGINA DE SERVICIOS =========*/
+.servicios-cajaImgPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.servicios-ImgPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.servicios-img {
+    width: 80%;
+    height: 90%;
+    border-radius: 15px;
+    border: solid 1px rgb(218, 199, 36);
+}
+
+.servicios-txtTeEscuchamos {
+    text-align: center;
+    color: rgb(75, 75, 73);
+    text-align: center;
+    font-size: 19px;
+    margin: 25px;
+}
+
+.servicios-tituloCorte {
+    text-align: center;
+    color: rgb(75, 75, 73);
+    text-align: center;
+    font-size: 19px;
+    margin: 25px;
+}
+
+.servicios-cajaImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+.servicios-menuImg {
+    height: 90;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 15px;
+}
+
+.serviciosImg {
+    width: 100%;
+    border-radius: 15px;
+    border: solid 1px rgb(218, 199, 36);
+}
+/*=======FIN - ESTILOS PAGINA DE SERVICIOS =========*/

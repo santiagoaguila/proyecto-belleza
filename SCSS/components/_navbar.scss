@@ -1,0 +1,23 @@
+/* nav{
+    background-color: blue;
+} */
+
+.navBackground {
+    background-color: rgba(71, 137, 212, 0.945);
+    position: sticky;
+    top: 0px;
+}
+
+header nav ul {
+    /*list-style: none;*/
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 15px;
+    margin: 0px 20px;
+    /*justify-content: center;*/
+}

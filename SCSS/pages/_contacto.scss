@@ -1,0 +1,98 @@
+/*======= INICIO - ESTILOS PAGINA DE CONTACTO =========*/
+.portada-contacto {
+    height: 60vh;
+    resize: both;
+    background-image: url("../img/contacto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 1.5px;
+}
+
+.portada-redes {
+    color: rgb(75, 75, 73);
+    text-align: center;
+    padding: 25px;
+    font-size: 17px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-logos-ws {
+    width: 190px;
+    height: 140px;
+}
+
+.contacto-logos-fa {
+    width: 145px;
+    height: 150px;
+    padding: 15px;
+    margin: 0px 20px;
+}
+
+.contacto-logos-ins {
+    width: 190px;
+    height: 180px;
+    padding: 15px;
+    margin: 0px 20px;
+}
+
+.contacto-envianosmsj {
+    text-align: center;
+    color: rgb(75, 75, 73);
+    text-align: center;
+    font-size: 19px;
+    margin: 25px;
+}
+
+.contacto-frm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+    margin: 15px 0px;
+}
+
+.contacto-frmTxt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacto-frmBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.frmTxt {
+    width: 280px;
+    height: 30px;
+}
+
+.frmBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 5px;
+}
+
+.frmBotones {
+    width: 373px;
+    height: 30px;
+    background-color: teal;
+}
+
+.frmBtn2 {
+    width: 373px;
+    height: 30px;
+}
+
+/*======= FIN - ESTILOS PAGINA DE CONTACTO =========*/

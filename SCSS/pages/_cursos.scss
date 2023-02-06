@@ -1,0 +1,68 @@
+/*=======INICIO - ESTILOS PAGINA DE CURSOS =========*/
+.cursos-main {
+    background-color: rgb(136, 194, 248);
+    height: 60vh;
+    resize: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.cursos-caja {
+    width: 400px;
+    height: 350px;
+    font-size: 1.0rem;
+    text-align: justify;
+}
+
+.cursos-img1 {
+    background-image: url("../img/cursos.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 50%;
+    height: 90%;
+}
+
+.videoMasVistos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cajaVideo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sizeVideo {
+    width: 30%;
+    border-radius: 15px;
+    border: solid 1px rgb(218, 199, 36);
+}
+
+.videosMasVistos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0px;
+}
+
+.cursos-videosMasVistos {
+    width: 40%;
+    border-radius: 15px;
+    border: solid 1px rgb(218, 199, 36);
+}
+
+.cursos-titulos {
+    text-align: center;
+}
+
+/*=======FIN - ESTILOS PAGINA DE CURSOS =========*/
