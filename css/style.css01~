@@ -39,9 +39,7 @@ header nav ul li a {
 }
 
 .logo {
-  width: 95px;
-  border-radius: 15px;
-  border: solid 1px rgb(218, 199, 36);
+  width: 350px;
 }
 
 /*=======FIN - ESTILOS NAVBAR =========*/
@@ -483,4 +481,4 @@ p {
   background-image: linear-gradient(to right, rgb(7, 66, 100), rgb(102, 177, 206));
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css01~.map */
