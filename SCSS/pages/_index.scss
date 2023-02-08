@@ -6,13 +6,10 @@
 /*Inicio de Estilos*/
 h1 {
     color: #dd2229;
-    /* Peso tipografico */
     font-weight: 400;
     text-decoration: line-through;
     text-align: center;
-    /* Tamaño tipografico  */
     font-size: 32px;
-    /* Tipografia */
     font-family: "Monserrat", sans-serif;
 }
 
@@ -36,10 +33,7 @@ p {
     color: beige;
     text-align: center;
     margin: 5px 0px;
-    /* Colores de fondo */
     background-color: blueviolet;
-
-    /* Imagenes de fondo  */
     background-image: url("../img/mundo_belleza.jpg");
     background-repeat: no-repeat;
     background-position: center;
