@@ -11,14 +11,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <meta name="description" content="Mundo de la belleza, te ofrecemos servicios de manicure, de pedicure, de corte de cabello y maquillaje.">
+    <meta name="description"
+        content="Mundo de la belleza, te ofrecemos servicios de manicure, de pedicure, de corte de cabello y maquillaje.">
     <title>Mundo de la Belleza - servicios manicure, corte de cabello y maquillaje</title>
 </head>
 
 <body>
 
-    <header class="navBackground">
-        <nav>
+    <!--<header class="navBackground">
+          <nav>
             <ul>
                 <li><img class="logo" src="img/LogoBelleza.png" alt="logo salon de belleza"></li>
                 <li><a href="index.html">Inicio</a></li>
@@ -27,23 +28,151 @@
                 <li><a href="./pages/nosotros.html">Nosotros</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
             </ul>
-        </nav>
+        </nav> 
+    </header>-->
+
+    <header class="navbar navbar-expand-lg  border-bottom bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="w-50 logo" src="img/LogoBelleza.png"
+                    alt="logo salon de belleza"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <!--<a class="nav-link active" aria-current="page" href="#">Home</a>  -->
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
 
+
+
+        <section class="container">
+
+            <div class="row">
+                <div class="col-lg order-lg-center inicio-titulo fw-bold">
+                    <h2>¡Bienvenidos al mundo de la belleza!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg order-lg-center portada">
+                </div>
+            </div>
+
+
+            <div class="row bg-light p-1">
+                <div class="col-lg order-lg-center">
+                    <h2 class="inicio-titulo">Contenido de Servicios</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg order-lg-first">
+                    <img data-aos="fade-right" class="img-fluid" src="./img/servicio_manicure.jpg"
+                        alt="Servicios de Manicure">
+                </div>
+                <div class="col-lg d-flex flex-column justify-content-center">
+                    <h3>Servicio de Manicure</h3>
+                    <p>Nuestras manos están en constante movimiento, las necesitamos para casi todas las actividades que
+                        realizamos diariamente. Aunque ya no las utilizamos para trabajos tan duros cómo se hacía en
+                        tiempos
+                        anteriores, siguen siendo una herramienta fundamental para lograr nuestras metas.</p>
+                    <p>Por este trabajo, están en constante desgaste con los objetos que tocamos cotidianamente.
+                        Nuestras
+                        uñas se golpean contra las superficies, la piel está en contacto con productos químicos
+                        corrosivos y
+                        el mismo medio ambiente la desgasta.
+                    </p>
+                    <p>
+                        El manicure profesional es uno de los tratamientos de cuidado personal más solicitados
+                        actualmente.
+                        Para las personas que creen que se trata únicamente de un tratamiento de belleza, tenemos que
+                        decirles que es una concepción equivocada.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg d-flex flex-column justify-content-center">
+                    <h3>Servicio de Maquillaje</h3>
+                    <p>
+                        El maquillaje de novia, así como el peinado es un trabajo muy perfeccionista, aunque en algunas
+                        ocasiones se elije un look natural, se aplican productos específicos que favorecen el acabado
+                        final del maquillaje, siendo muy resistente, a prueba de sudor y por supuesto !lagrimas!
+                    </p>
+                    <p>
+                        Para mayor tranquilidad, se recomienda hacer una prueba previa, tanto de maquillaje como de
+                        peinado, uno o dos meses antes aproximadamente del día de la boda, donde se escogen las
+                        tonalidades, intensidad, textura de piel y productos a utilizar; junto con mi asesoría la novia
+                        es quien decide el resultado final.
+                        El día de la prueba se pueden hacer diferentes looks, hasta encontrar el acabado perfecto, donde
+                        se harán fotos y una ficha de producto para volver a reproducirlo el día de la boda.
+                    </p>
+                </div>
+                <div class="col-lg order-lg-end">
+                    <img data-aos="fade-up-left" class="img-fluid" src="./img/make-up.jpg"
+                        alt="Servicios de maquillaje">
+                </div>
+            </div>
+
+            <div class="row p-3">
+                <div class="col-lg order-lg-first">
+                    <img data-aos="zoom-in" class="img-fluid" src="img/corte_cabello.jpg"
+                        alt="Servicios de corte de cabello">
+                </div>
+                <div class="col-lg d-flex flex-column justify-content-center">
+                    <h3>Servicio de Corte de Cabello</h3>
+                    <p>
+                        Es el arte de cortar y modelar el pelo con la finalidad de que el cliente luzca bien. Un buen
+                        corte
+                        es la base esencial para un peinado elegante. El arte de recortar puede aprenderse por consejos
+                        de
+                        buenos peluqueros y maestros o con la práctica, en modelaje humanos.
+                    </p>
+                    <p>
+                        El peinado es el estilizado final que se le da al cabello sobre un buen corte con la ayuda de un
+                        producto profesional para obtener un resultado de calidad.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- 
         <section class="portada">
             <h2>¡Bienvenidos al mundo de la belleza!</h2>
         </section>
+
         <section>
             <h2 class="inicio-titulo">Contenido de Servicios</h2>
         </section>
+      
         <section class="contenedor1">
             <div class="div-manicure">
-                <img data-aos="fade-right" class="img-over" src="./img/servicio_manicure.jpg" alt="Servicios de Manicure">
+                <img data-aos="fade-right" class="img-over" src="./img/servicio_manicure.jpg"
+                    alt="Servicios de Manicure">
             </div>
             <div class="caja slide-fwd-tr">
-                <!-- <h3>Desde el 2000 - Estamos al servicio</h3> -->
                 <h3>Servicio de Manicure</h3>
                 <p>Nuestras manos están en constante movimiento, las necesitamos para casi todas las actividades que
                     realizamos diariamente. Aunque ya no las utilizamos para trabajos tan duros cómo se hacía en tiempos
@@ -56,12 +185,6 @@
                     El manicure profesional es uno de los tratamientos de cuidado personal más solicitados actualmente.
                     Para las personas que creen que se trata únicamente de un tratamiento de belleza, tenemos que
                     decirles que es una concepción equivocada.
-                </p>
-                <p>
-                    El manicure profesional sí es un tratamiento muy efectivo para que tus manos y uñas luzcan limpias y
-                    brillantes. Pero también es una excelente manera de asegurar la salud de tus manos, al promover una
-                    mejor circulación de la sangre por las manos, relajar los músculos y aliviar posibles dolores en las
-                    articulaciones de manos y dedos.
                 </p>
             </div>
         </section>
@@ -105,7 +228,7 @@
                 </p>
             </div>
         </section>
-
+  -->
     </main>
 
     <footer id="footer-index" class="gradient">
@@ -117,6 +240,9 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

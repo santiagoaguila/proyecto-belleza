@@ -22,28 +22,33 @@ ul, ol {
   top: 0px;
 }
 
-header nav ul {
-  display: flexbox;
-  flex-direction: row;
-  align-items: center;
-}
-
-header nav ul li {
-  display: inline-block;
-  padding: 15px;
-  margin: 0px 20px;
-}
-
-header nav ul li a {
+header div nav ul li a {
   color: yellow;
 }
 
-.logo {
-  width: 95px;
-  border-radius: 15px;
-  border: solid 1px rgb(218, 199, 36);
+/*
+header nav ul {
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+
 }
 
+header nav ul li {
+    display: inline-block;
+    padding: 15px;
+    margin: 0px 20px;
+}
+
+header nav ul li a {
+    color: yellow;
+}
+
+.logo {
+    border-radius: 15px;
+    border: solid 1px rgb(218, 199, 36);
+}
+*/
 /*=======FIN - ESTILOS NAVBAR =========*/
 .contenedor-tarjetas {
   display: flex;
@@ -103,7 +108,7 @@ p {
 }
 
 .contenedor1 img {
-  width: 100%;
+  width: 95%;
   height: 100%;
 }
 
@@ -125,10 +130,11 @@ p {
 }
 
 .caja {
-  width: 400px;
+  width: 650px;
   height: 350px;
   font-size: 1rem;
   text-align: justify;
+  padding: 0px 65px 0px 0px;
 }
 
 .imgcaja2 {
@@ -425,20 +431,7 @@ p {
   height: 350px;
   font-size: 1rem;
   text-align: justify;
-  /*Animaciones*/
-  /*animation-duration: 10s;
-  transition-delay: 1s;
-  transition-property: all;
-  */
   transition: 2s all ease-in-out;
-  /* ------- Animaciones --------- */
-  /*animation-name: mover-caja;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  */
-  /* animation-delay: 2s; */
-  /* animation-direction: alternate-reverse;
-  animation-timing-function: linear; */
 }
 
 .img-over:hover {
