@@ -8,9 +8,16 @@
     top: 0px;
 }
 
-header div nav ul li a {
+
+.fontcolorli {
     color: yellow;
 }
+
+.logo {
+    border-radius: 8px;
+    border: solid 1px rgb(139, 139, 138);
+}
+
 /*
 header nav ul {
     display: flexbox;
@@ -29,9 +36,6 @@ header nav ul li a {
     color: yellow;
 }
 
-.logo {
-    border-radius: 15px;
-    border: solid 1px rgb(218, 199, 36);
-}
+
 */
 /*=======FIN - ESTILOS NAVBAR =========*/

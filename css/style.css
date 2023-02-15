@@ -22,8 +22,13 @@ ul, ol {
   top: 0px;
 }
 
-header div nav ul li a {
+.fontcolorli {
   color: yellow;
+}
+
+.logo {
+  border-radius: 8px;
+  border: solid 1px rgb(139, 139, 138);
 }
 
 /*
@@ -44,10 +49,7 @@ header nav ul li a {
     color: yellow;
 }
 
-.logo {
-    border-radius: 15px;
-    border: solid 1px rgb(218, 199, 36);
-}
+
 */
 /*=======FIN - ESTILOS NAVBAR =========*/
 .contenedor-tarjetas {
@@ -150,14 +152,14 @@ p {
 /*=======FIN - ESTILOS PAGINA DE INICIO =========*/
 /*=======INICIO - ESTILOS PAGINA DE CURSOS =========*/
 .cursos-main {
-  background-color: rgb(136, 194, 248);
+  /*background-color: rgb(136, 194, 248);*/
   height: 60vh;
   resize: both;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  color: white;
+  /*color: white;*/
   width: 100%;
 }
 
@@ -169,7 +171,7 @@ p {
 }
 
 .cursos-img1 {
-  background-image: url("../img/cursos.jpg");
+  background-image: url("../../img/cursos.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -192,8 +194,8 @@ p {
 }
 
 .sizeVideo {
-  width: 30%;
-  border-radius: 15px;
+  width: 97%;
+  border-radius: 10px;
   border: solid 1px rgb(218, 199, 36);
 }
 

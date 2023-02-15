@@ -1,13 +1,13 @@
 /*=======INICIO - ESTILOS PAGINA DE CURSOS =========*/
 .cursos-main {
-    background-color: rgb(136, 194, 248);
+    /*background-color: rgb(136, 194, 248);*/
     height: 60vh;
     resize: both;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    /*color: white;*/
     width: 100%;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .cursos-img1 {
-    background-image: url("../img/cursos.jpg");
+    background-image: url("../../img/cursos.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -42,8 +42,8 @@
 }
 
 .sizeVideo {
-    width: 30%;
-    border-radius: 15px;
+    width: 97%;
+    border-radius: 10px;
     border: solid 1px rgb(218, 199, 36);
 }
 
